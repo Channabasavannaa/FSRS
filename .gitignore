@@ -1,3 +1,72 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Virtual environments
+venv/
+.env/
+.envrc/
+
+# ================================
+# Jupyter / IPython
+# ================================
+.ipynb_checkpoints/
+
+
+# ================================
+# Build / distribution
+# ================================
+dist/
+build/
+*.egg-info/
+
+# ================================
+# OS / Editor junk
+# ================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ================================
+# FSRS / Anki specific (IMPORTANT)
+# ================================
+# Anki collections & exports
+*.anki2
+*.anki21
+*.colpkg
+
+# Generated / processed datasets
+*.tsv
+*.csv
+*.parquet
+
+# FSRS generated metadata
+meta/
+revlog_history.tsv
+stability_for_pretrain.tsv
+
+# ================================
+# Logs & caches
+# ================================
+*.log
+*.tmp
+
+# ================================
+# HuggingFace / model cache
+# ================================
+.cache/
+.huggingface/
+
+# ================================
+# Misc
+# ================================
+*.zip
+*.tar
+*.gz
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
